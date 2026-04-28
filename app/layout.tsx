@@ -4,7 +4,7 @@ import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { ReactNode } from "react"
 import { StoreProvider } from "@/store/store-provider"
-//hgg
+//wassim
 export const metadata: Metadata = {
   title: "Academic Achievements Tracker",
   description: "Track and showcase your academic achievements with ease.",
