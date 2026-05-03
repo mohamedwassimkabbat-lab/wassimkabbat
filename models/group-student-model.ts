@@ -1,4 +1,4 @@
-import mongoose, { Schema, Document, model, models } from "mongoose";
+import { Schema, Document, model, models } from "mongoose";
 
 export interface IGroupStudent extends Document {
   firstName: string;
@@ -27,7 +27,7 @@ const GroupStudentSchema = new Schema<IGroupStudent>(
     },
   },
   {
-
+    collection: "group_students",
     timestamps: true,
   }
 );

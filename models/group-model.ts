@@ -16,6 +16,7 @@ const GroupSchema = new Schema<IGroup>(
     },
   },
   {
+    collection: "groups",
     timestamps: true,
   },
 )
